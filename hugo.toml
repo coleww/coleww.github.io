@@ -1,0 +1,24 @@
+baseURL = "https://www.colewillsea.net/"
+languageCode = "en-us"
+title = "Cole Willsea Dot Net"
+theme = "rocinante"
+paginate = 3
+
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+  [markup.goldmark.renderer]
+    unsafe= true
+
+[params]
+  mainSections = ["posts"]
+  favicon = "icons/favicon.png"
+  about = """
+My blog!
+"""
+
+  [[params.links]]
+    [[params.links.link]]
+      name = "Github"
+      href = "https://github.com/coleww"
+      new_tab = true
