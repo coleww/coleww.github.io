@@ -12,13 +12,61 @@ paginate = 3
 
 [params]
   mainSections = ["posts"]
-  favicon = "icons/favicon.png"
-  about = """
-My blog!
-"""
+  favicon = "favicon.ico"
 
   [[params.links]]
     [[params.links.link]]
-      name = "Github"
+      name = "github"
       href = "https://github.com/coleww"
       new_tab = true
+    [[params.links.link]]
+      name = "linkedin"
+      href = "http://linkedin.com/in/colewillsea/"
+      new_tab = true
+    [[params.links.link]]
+      name = "npm"
+      href = "https://www.npmjs.com/~coleww"
+      new_tab = true
+    [[params.links.link]]
+      name = "bandcamp"
+      href = "https://colewillsea.bandcamp.com"
+      new_tab = true
+    [[params.links.link]]
+      name = "alltrails"
+      href = "https://www.alltrails.com/members/cole-sea-1/maps?b_tl_lat=38.04488454504357&b_tl_lng=-123.70195184277529&b_br_lat=36.451046077854215&b_br_lng=-120.14343815722384"
+      new_tab = true
+    [[params.links.link]]
+      name = "insta"
+      href = "http://instagram.com/coledoubleyou/"
+      new_tab = true
+    [[params.links.link]]
+      name = "letterboxd"
+      href = "https://letterboxd.com/coledoubleyou/"
+      new_tab = true
+    [[params.links.link]]
+      name = "soundcloud"
+      href = "https://soundcloud.com/sadgaytechno"
+      new_tab = true  
+    [[params.links.link]]
+      name = "itch"
+      href = "https://coledoubleyou.itch.io"
+      new_tab = true  
+    [[params.links.link]]
+      name = "discogs"
+      href = "https://www.discogs.com/user/sadgaytechno/collection"
+      new_tab = true  
+
+  [[params.projects]]
+    [[params.projects.project]]
+      name = "JSON Statham"
+      href = "http://colewillsea.net/json-formatter/"
+      new_tab = true
+    [[params.projects.project]]
+      name = "Daytime Lowtide Finder"
+      href = "https://colewillsea.net/tide-finder/"
+      new_tab = true
+    # [[params.projects.project]]
+    #   name = "Tabbus"
+    #   href = "https://tabbus.app/"
+    #   new_tab = true
+
