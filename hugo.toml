@@ -1,7 +1,7 @@
 baseURL = "https://www.colewillsea.net/"
 languageCode = "en-us"
 title = "Cole Willsea Dot Net"
-theme = "rocinante"
+theme = "horse"
 paginate = 3
 
 [markup]

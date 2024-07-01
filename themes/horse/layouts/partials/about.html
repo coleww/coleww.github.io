@@ -1,0 +1,36 @@
+
+<div class="about-me">
+  This is my personal home page and web blog where I write about 
+  <a href="./tags/outdoors">The Outdoors</a> (like <a href="./tags/bikecamping">Bike Camping</a> and <a href="./tags/backpacking">Backpacking</a>) 
+  or 
+  <a href="./tags/tech">Tech</a> (like <a href="./tags/agile">Agile</a> and <a href="./tags/a11y">Accessibility</a> ) 
+  or 
+  <a href="./tags/projects">Random Projects</a>
+  <br/>
+  <br/>
+  <b>Around the web</b>:
+  {{ range $links := .Site.Params.links }}
+    <span class="horizontal-links">
+      {{- range $links.link -}}
+        <a href="{{ .href }}"
+        {{ if .new_tab }} target="_blank" {{end}}
+        >
+          {{- .name -}}
+        </a>
+      {{- end -}}
+    </span>
+  {{ end }}
+  <br/>
+  <b>Projects</b>: 
+  {{ range $projects := .Site.Params.projects }}
+    <span class="horizontal-links">
+      {{- range $projects.project -}}
+        <a href="{{ .href }}"
+        {{ if .new_tab }} target="_blank" {{end}}
+        >
+          {{- .name -}}
+        </a>
+      {{- end -}}
+    </span>
+  {{ end }}
+</div>
