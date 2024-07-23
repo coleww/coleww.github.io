@@ -22,10 +22,17 @@ strong, b {
   font-weight: bold;
 }
 
+iframe {
+  margin: 0 auto 1.5em !important; // override instagram embed inline
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  // margin: 1.5em 0 1em 0;
   line-height: 1em;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 1.5em 0 1em 0;
 }
 
 h1 {
