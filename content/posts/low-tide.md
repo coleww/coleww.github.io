@@ -37,7 +37,7 @@ When exploring you should aim to arrive some time before low tide so that you ha
 There are a number of tools that you can use to look up tide charts:
 
 - The [NOAA](https://tidesandcurrents.noaa.gov/tide_predictions.html) has a free service, but it is a little barebones
-- I built a tool called [Daytime Lowtide Finder](https://colewillsea.net/daytime-lowtide-finder/) which uses NOAA data to find low tides during daylight hours
+- I built a tool called [Tide Finder](https://colewillsea.net/tide-finder/) which uses NOAA data to find low tides during daylight hours
 - There are commercial websites like [Tide Forecast](https://www.tide-forecast.com) or [US Harbors](https://www.usharbors.com) that have nicer UI
 - I also use an iPhone app called [Tides Near Me](https://apps.apple.com/us/app/tides-near-me/id585223877), though it only shows 1 week of predictions
 
